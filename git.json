@@ -1,0 +1,37 @@
+git init
+git status
+git add
+git commit
+
+git log
+git show 
+git diff
+
+working directory 
+staging area
+git repository
+gitk
+
+git checkout
+git reset
+
+git checkout -b <branch> (branching)
+git checkout <branch>
+git merge 
+// merge
+chuyen branch B sang A (A <---- B)
+1. git checkout A (chuyen ve nhanh A)
+2. git merge B
+// delete
+git branch -D <file> // xoa file
+
+git reset --soft  <to_commit>
+git reset --mixed <to_commit>
+git reset --hard (xoa han, luu y) <to_commit>
+
+git revert <commit> // khac voi reset ntn: khong phai commit moi nhat, 
+//ma la commit da cu roi
+
+gitignore
+
+

@@ -34,4 +34,15 @@ git revert <commit> // khac voi reset ntn: khong phai commit moi nhat,
 
 gitignore
 
+github
+git push
+
+git config --global credential.helper store 
+^^^ not recommend (~/.git-crendentials)
+
+git config --global credential.helper "cache --timeout=18000"
+
+google "gnome-keyring" "git ssh"
+
+
 
